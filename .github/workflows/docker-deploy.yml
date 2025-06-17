@@ -35,5 +35,5 @@ jobs:
         with:
           task-definition: ecs-task-def.json
           service: house-price-service
-          cluster: ${{ secrets.ECS_CLUSTER }}
+          cluster: ${{ secrets.ECS_CLUSTER_NAME }}
           wait-for-service-stability: true
