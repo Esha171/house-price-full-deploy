@@ -20,7 +20,7 @@
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "/ecs/house-price-task",
+          "awslogs-group": "/ecs/house-price-logs",
           "awslogs-region": "ap-south-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -36,3 +36,4 @@
     "operatingSystemFamily": "LINUX"
   }
 }
+
